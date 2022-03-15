@@ -10,13 +10,3 @@ When it comes to such deployments, visualizations are a critical component. In o
 
 # About the Data
 For this demonstration, 693 papers from the University of the Pacific Thesis/Dissertation [database](https://scholarlycommons.pacific.edu/uop_etds/) were scraped and categorised into 10 topics using LDA analysis.
-
-# Web Scraping
-When a student completes their thesis or dissertation, their work is published on this site: https://scholarlycommons.pacific.edu/uop_etds/. With this site, I had to do the following:
-
-1. Find the article listing of each thesis/dissertation.
-2. Retrieve the link to the thesis/dissertation overview.
-3. From that page, retrieve the title, author(s), department, abstract, keywords, URL to the paper, and publication date.
-
-First, using **requests** and **BeautifulSoup** I retrieve the contents of the URL. Additionally, I initialize several lists where I will store the data items.
-
