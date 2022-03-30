@@ -28,3 +28,4 @@ pandas
 dash_cytoscape
 umap
 dash_bootstrap_components
+sklearn
