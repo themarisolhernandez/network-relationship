@@ -5,8 +5,8 @@
 
 
 import logging
-import numpy as np
 import pandas as pd
+import numpy as np
 import plotly.express as px
 import dash
 import dash_cytoscape as cyto
@@ -44,7 +44,7 @@ root_logger.addHandler(sh)
 # 
 # You may have also noticed a slider on the right side of the animation above. It is configured to modify the t-SNE parameter ‘perplexity’. In Dash, this is achieved by setting up a slider element and listening for a change to it in a callback function, before passing it on as a parameter to perform updated calculations.
 
-# In[5]:
+# In[3]:
 
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
@@ -553,7 +553,7 @@ def display_nodedata(datalist):
     return contents
 
 
-# In[6]:
+# In[4]:
 
 
 if __name__ == "__main__":
