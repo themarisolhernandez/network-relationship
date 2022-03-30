@@ -5,8 +5,8 @@
 
 
 import logging
-import pandas as pd
 import numpy as np
+import pandas as pd
 import plotly.express as px
 import dash
 import dash_cytoscape as cyto
