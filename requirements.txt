@@ -25,3 +25,7 @@ Werkzeug
 zipp
 numpy
 pandas
+dash_cytoscape
+umap
+json
+dash_bootstrap_components
