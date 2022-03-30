@@ -46,7 +46,7 @@ root_logger.addHandler(sh)
 # 
 # You may have also noticed a slider on the right side of the animation above. It is configured to modify the t-SNE parameter ‘perplexity’. In Dash, this is achieved by setting up a slider element and listening for a change to it in a callback function, before passing it on as a parameter to perform updated calculations.
 
-# In[3]:
+# In[5]:
 
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
@@ -267,7 +267,7 @@ body_layout = dbc.Container(
                             topics_html,
                             style={
                                 "fontSize": 11,
-                                "height": "400px",
+                                "height": "200px",
                                 "overflow": "auto",
                             },
                         ),
@@ -555,7 +555,7 @@ def display_nodedata(datalist):
     return contents
 
 
-# In[ ]:
+# In[6]:
 
 
 if __name__ == "__main__":
