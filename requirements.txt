@@ -3,8 +3,6 @@ certifi
 charset-normalizer
 click
 dash
-dash-core-components
-dash-html-components
 dash-table
 Flask
 Flask-Compress
